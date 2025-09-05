@@ -4,7 +4,8 @@
     "start": "cd my-app && npm start",
     "generate:og": "node scripts/generate-og-sharp.js",
     "generate:brand": "node scripts/generate-brand-assets-sharp.js",
-    "optimize:images": "node scripts/optimize-images.js"
+    "optimize:images": "node scripts/optimize-images.js",
+    "vercel-build": "cd my-app && npm install && npm run build"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.1",
